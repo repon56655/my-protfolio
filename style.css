@@ -12,7 +12,7 @@ section{
 }
 .container{
     margin: 0 auto;
-    width: 80%;
+    width: 85%;
 
 }
 .half-width{
@@ -25,13 +25,14 @@ section{
 .half-width h1{
     font-size: 55px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    padding-top: 70px;
   
 }
 .half-width h2{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 .half-width h3{
     font-size: 25px;
@@ -46,7 +47,7 @@ section{
 
 .half-width a{
     text-decoration: none;
-    background-image: linear-gradient(45deg, orange, tomato);
+    background-image: linear-gradient( orange, tomato);
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
@@ -61,4 +62,5 @@ section::after{
 
 .half-width img{
     width: 100%; 
+    
 }
