@@ -76,29 +76,38 @@ section::after{
     background-image: url("img/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+   
   
 }
 .box-shadow{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
     min-height: 80%;
+
 }
+
+
 #full-stack{
-    border-right: 7px solid;
-    background-image: linear-gradient(45deg, orange, tomato);
-    border-image: linear-gradient(45deg, blue, cyan);
+    border-right: 7px solid ;
+    background-image: linear-gradient(45deg, orange, tomato); 
+    border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
 }
+
 #junior-programer{
-    border-right: 7px solid;
-    background-image: linear-gradient(45deg, blue, cyan);
-    border-image: linear-gradient(45deg, orange, tomato);
+    border-right: 7px solid tomato;
+    background-image: linear-gradient(45deg, blue, cyan); 
+    border-image: linear-gradient(180deg, orange, tomato);
     border-image-slice: 1;
+    
+
 }
 .white-color{
     color: white;
 }
 footer p {
     text-align: center;
+    font-size: 14px;
+    font-weight: bold;
 
 }
