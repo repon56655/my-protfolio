@@ -19,15 +19,12 @@ section{
     float: left;
     width: 40%;
     padding: 2%;
-    margin: 5%;
+    margin: 2%;
   
 }
 .half-width h1{
     font-size: 55px;
     font-weight: bold;
-
- 
-  
 }
 .half-width h2{
     font-size: 40px;
@@ -51,6 +48,7 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 900;
+    margin-top: 10px;
 }
 
 section::after{
@@ -62,4 +60,9 @@ section::after{
 .half-width img{
     width: 100%; 
     
+}
+.dream-area{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
