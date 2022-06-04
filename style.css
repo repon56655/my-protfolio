@@ -19,7 +19,7 @@ section{
     float: left;
     width: 40%;
     padding: 2%;
-    margin: 2%;
+    margin: 5%;
   
 }
 .half-width h1{
@@ -39,7 +39,10 @@ section{
 .half-width p{
     font-size: 20px;
     text-align: justify;
+    margin-bottom: 10px;
+   
 }
+
 
 .half-width a{
     text-decoration: none;
@@ -65,4 +68,15 @@ section::after{
     background-image: url("img/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area {
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+  
+}
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
 }
