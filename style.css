@@ -25,9 +25,6 @@ section{
 .half-width h1{
     font-size: 55px;
     font-weight: bold;
-
- 
-  
 }
 .half-width h2{
     font-size: 40px;
@@ -42,7 +39,10 @@ section{
 .half-width p{
     font-size: 20px;
     text-align: justify;
+    margin-bottom: 10px;
+   
 }
+
 
 .half-width a{
     text-decoration: none;
@@ -51,6 +51,7 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 900;
+    margin-top: 10px;
 }
 
 section::after{
@@ -62,4 +63,20 @@ section::after{
 .half-width img{
     width: 100%; 
     
+}
+.dream-area{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area {
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+  
+}
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
 }
